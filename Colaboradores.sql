@@ -3,7 +3,7 @@ create database RH;
 use RH; 
 
 create table if not exists RH.Colaboradores(
-	Id BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    Id BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     Nome VARCHAR(70) NOT NULL,
     DataNascimento DATE NOT NULL,
     Superior VARCHAR(60) NOT NULL,
